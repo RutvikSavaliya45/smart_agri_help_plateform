@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+:root {
+  --bs-primary: #2a7d2a; /* iKhedut green */
+  --bs-body-bg: #f1f5f9;  /* page background */
+  --bs-body-color: #333;   /* text color */
+}
+
+/* Navbar link hover */
+.navbar-nav .nav-link:hover {
+  background-color: #1f5c1f; /* slightly darker green */
+  color: #fff !important;
+  border-radius: 5px;
+}
+
